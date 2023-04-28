@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (min-width: 700px) {
+    .main-body {
+        display: flex;
+        flex-direction: column;
+    }
+}
