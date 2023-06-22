@@ -29,6 +29,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 3rem;
 }
 
 .middle {
