@@ -24,7 +24,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     background-image: url("images/background.jpg");
 }
 
-.main-form {
+.form-space {
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,10 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     margin-bottom: 2rem;
 }
 
+.form-header {
+
+}
+
 .form-body {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -44,7 +48,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 
 .row {
     display: flex;
-    gap: 20px;
+    gap: 80px;
     margin-bottom: 20px;
 }
 
