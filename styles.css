@@ -29,7 +29,10 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem;
+}
+
+.form-space > div {
+    padding-left: 3rem;
 }
 
 /* Inside the form-space */
@@ -40,8 +43,9 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 }
 
 .form {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-style: solid;
 }
 
 .form-header {
