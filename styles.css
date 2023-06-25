@@ -42,12 +42,13 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     margin-bottom: 1rem;
 }
 
-.form {
+.middle-form-inputs { /* Padded to ensure enlargement of the box*/
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-style: solid;
 }
 
+/* Form controls */
 .form-header {
 
 }
@@ -72,6 +73,15 @@ input {
     width: 200px;
     height: 25px;
 }
+
+/* End of form controls */
+
+.bottom-submission > div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* End of form-space */
 
 /* @media only screen and (min-width: 700px) {
     .main-body {
