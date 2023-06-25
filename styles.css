@@ -32,9 +32,30 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     padding: 3rem;
 }
 
-.middle {
+.form {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.form-body {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-style {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+    height: 25px;
 }
 
 /* @media only screen and (min-width: 700px) {
