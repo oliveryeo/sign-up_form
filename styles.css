@@ -32,6 +32,13 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     padding: 3rem;
 }
 
+/* Inside the form-space */
+
+.top-description > div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .form {
     margin-top: 2rem;
     margin-bottom: 2rem;
