@@ -38,11 +38,13 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 /* Inside the form-space */
 
 .top-description > div {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .middle-form-inputs { /* Padded to ensure enlargement of the box*/
+    margin-top: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-style: solid;
