@@ -21,7 +21,30 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 .background {
     flex: 1;
     background-image: url("images/background.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* make sure containers fill the whole horizontal stretch */
+    text-align: center; /* align the logo and text center */
 }
+
+/*Inside background */
+
+.odin-logo {
+    display: inline-block;
+    font-family: Norse-Bold;
+    font-size: 5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.odin-logo > img {
+    width: 5rem;
+    height: auto;
+    margin-bottom: -1rem; /* Aligns the logo to the center of the text line */
+}
+
+/* End of background */
 
 .form-space {
     flex: 2;
