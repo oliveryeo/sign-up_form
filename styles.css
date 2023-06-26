@@ -110,6 +110,15 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 input {
     width: 200px;
     height: 25px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 0.2rem;
+    border-width: 1px;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 /* End of form controls */
