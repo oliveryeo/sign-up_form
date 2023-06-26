@@ -24,6 +24,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: stretch; /* make sure containers fill the whole horizontal stretch */
     text-align: center; /* align the logo and text center */
 }
@@ -42,6 +43,13 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     width: 5rem;
     height: auto;
     margin-bottom: -1rem; /* Aligns the logo to the center of the text line */
+}
+
+.credits {
+    position: absolute;
+    color: white;
+    align-self: center;
+    bottom: 1rem; /* Position this element 1rem from the bottom */
 }
 
 /* End of background */
