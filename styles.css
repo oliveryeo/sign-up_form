@@ -21,6 +21,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 .background {
     flex: 1;
     background-image: url("images/background.jpg");
+    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
