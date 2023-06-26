@@ -50,6 +50,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-style: solid;
+    border-color: #E5E7EB;
 }
 
 /* Form controls */
