@@ -85,6 +85,16 @@ input {
     margin-bottom: 1rem;
 }
 
+button {
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #596D48;
+    border-style: none;
+    border-radius: 0.5rem;
+}
+
 /* End of form-space */
 
 /* @media only screen and (min-width: 700px) {
