@@ -83,6 +83,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     padding-bottom: 1rem;
     border-style: solid;
     border-color: #E5E7EB;
+    box-shadow: 4px 4px 5px -2px rgb(201, 201, 201); /* negative spread radius hides the top border shadow*/
 }
 
 /* Form controls */
