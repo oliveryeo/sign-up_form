@@ -55,7 +55,8 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 
 /* Form controls */
 .form-header {
-
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .form-body {
@@ -94,6 +95,12 @@ button {
     background-color: #596D48;
     border-style: none;
     border-radius: 0.5rem;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* End of form-space */
