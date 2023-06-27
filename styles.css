@@ -155,6 +155,14 @@ a {
     font-weight: bold;
 }
 
+.error {
+    border-color: red;
+}
+
+.success {
+
+}
+
 /* End of form-space */
 
 /* @media only screen and (min-width: 700px) {
