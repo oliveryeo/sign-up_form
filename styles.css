@@ -81,9 +81,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
 .middle-form-inputs { /* Padded to ensure enlargement of the box*/
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-style: solid;
-    border-color: #E5E7EB;
-    box-shadow: 4px 4px 5px -2px rgb(201, 201, 201); /* negative spread radius hides the top border shadow*/
+    box-shadow: 4px 4px 5px 2px rgb(201, 201, 201); /* negative spread radius hides the top border shadow*/
 }
 
 /* Form controls */
@@ -115,6 +113,12 @@ input {
     border-color: #E5E7EB;
     border-radius: 0.2rem;
     border-width: 1px;
+    padding: 2px 12px;
+}
+
+input:focus {
+    box-shadow: 2px 4px 5px -2px rgb(201, 201, 201);
+    outline: 1px solid blue;
 }
 
 label {
@@ -137,6 +141,12 @@ button {
     background-color: #596D48;
     border-style: none;
     border-radius: 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 5px -2px rgb(201, 201, 201);
+    background-color: #5f764d;
 }
 
 a {
