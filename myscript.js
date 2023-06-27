@@ -1,3 +1,4 @@
-// After pressing create account button -> Check if password matches the confirm password
+// Check if password matches
 
-// If matches, then create. If it doesn't then do not create.
+// If it matches -> put success class
+// If it doesn't match -> put error class in both password fields (for red border), add span to .input-style-password and add "*Passwords do not match" message.

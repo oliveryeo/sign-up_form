@@ -101,7 +101,7 @@ html, body, .main-body { /* Makes sure the .main-body container will stretch all
     margin-bottom: 20px;
 }
 
-.input-style, .input-style-password, .input-style-confirm-password {
+.input-style, .input-style-password {
     display: flex;
     flex-direction: column;
 }
@@ -158,6 +158,10 @@ a {
 /* For password matching error handling  */
 .error {
     
+}
+
+.success {
+
 }
 
 /* End of form-space */
