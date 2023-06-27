@@ -155,6 +155,7 @@ a {
     font-weight: bold;
 }
 
+/* For password matching error handling  */
 .error {
     border-color: red;
 }
