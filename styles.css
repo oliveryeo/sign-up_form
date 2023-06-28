@@ -155,13 +155,12 @@ a {
     font-weight: bold;
 }
 
-/* For password matching error handling  */
-.error {
-    
+#message {
+    font-size: smaller;
 }
 
-.success {
-
+input[type="password"]:focus {
+    outline: none;
 }
 
 /* End of form-space */
